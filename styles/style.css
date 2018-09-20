@@ -1,0 +1,117 @@
+body{
+    background: skyblue;
+}
+.main_wrapper{
+    width: 1000px;
+    height: 800px;
+    margin: auto;
+    background-color: black;
+}
+.header_wrapper{
+    width: 1000px;
+    height: 100px;
+    margin: auto;
+}
+#logo{
+    float: left;
+    width: 500px;
+    height: 100px;
+}
+#banner{
+    float: right;
+    width: 500px;
+    height: 100px;
+}
+.menubar{
+    width: 1000px;
+    height: 50px;
+    background: gray;
+    color: white;
+}
+#menu{
+    padding: 0;
+    margin: 0;
+    line-height: 40px;
+    float: left;
+}
+#menu li{
+    list-style: none;
+    display: inline;
+}
+#menu a{
+    text-decoration: none;
+    color: blue;
+    padding: 8px;
+    margin: 0px;
+    font-size: 18px;
+    font-family: serif;
+}
+#menu a:hover{
+    color: orange;
+    font-weight: bolder;
+    text-decoration: underline;
+}
+#form{
+    float: right;
+    padding-right: 8px;
+    line-height: 40px;
+}
+.content_wrapper{
+    width: 1000px;
+    margin: auto;
+    background: pink;
+}
+#content_area{
+    width: 800px;
+    float: right;
+    background: greenyellow;
+}
+#sidebar{
+    width: 200px;
+    float: left;
+    background: black;
+}
+#sidebar_title{
+    background: wheat;
+    color: black;
+    font-size: 22px;
+    font-family: arial;
+    padding: 8px;
+    text-align: center;
+}
+#cats{padding: 0;}
+#cats li{list-style: none; margin: 8px; text-align: center;}
+#cats a{color: yellow; font-size: 18px; font-family: serif; text-decoration: none;}
+#cats a:hover{color: orange; font-weight: bolder; text-decoration: underline;}
+
+#products_box{
+    width: 780px;
+    height: 650px;
+    overflow-y: scroll;
+    text-align: center;
+    margin-left: 20px;
+    margin-bottom:2px;
+    font-family: serif;
+}
+#single_product{
+    float: left;
+    margin-left: 30px;
+    padding: 5px;
+}
+#single_product img{
+    border: 2px solid black;
+}
+#shopping_cart{
+    width: 800px;
+    height: 44px;
+    background: black;
+    color: white;
+}
+
+
+#footer{
+    width: 1000px;
+    height: 100px;
+    background: gray;
+    clear: both;
+}

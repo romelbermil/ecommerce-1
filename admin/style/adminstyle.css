@@ -1,0 +1,58 @@
+body{
+    background: skyblue;
+}
+.main_wrapper{
+    width: 1000px;
+    height: auto;
+    margin: auto;
+}
+#header{
+    width: 1000px;
+    height: 100px;
+    background: wheat;
+    border-bottom: 2px groove black;
+}
+#left_content{
+    width: 300px;
+    height: 500px;
+    background: black;
+    float: left;
+}
+#sidebar_title{
+    background: wheat;
+    color: black;
+    font-size: 22px;
+    font-family: arial;
+    padding: 8px;
+    text-align: center;
+}
+#cats{padding: 0;}
+#cats li{list-style: none; margin: 10px; text-align: center;}
+#cats a{color: yellow; font-size: 18px; font-family: serif; text-decoration: none;}
+#cats a:hover{color: orange; font-weight: bolder; text-decoration: underline;}
+#right_content{
+    width: 700px;
+    height: 500px;
+    background: greenyellow;
+    float: right;
+}
+#shopping_cart{
+    width: 700px;
+    height: 45px;
+    background: black;
+    color: yellow;
+}
+#main_thing{
+    width: 700px;
+    text-align: center;
+    margin-left: 20px;
+    margin-bottom:5px;
+    font-family: serif;
+}
+#footer{
+    width: 1000px;
+    height: 100px;
+    border-top: 2px groove black;
+    background: gray;
+    clear: both;
+}
